@@ -218,6 +218,9 @@ sources:
             min_value: 0
             max_value: 10
             inclusive: true
+            config: # added VG
+              severity: warn # added VG
+            
     - name: ORDER_TAX_AMOUNT
       description: 'Tax amount'
     - name: ORDER_DISCOUNT_AMOUNT
